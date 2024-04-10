@@ -8,6 +8,7 @@ pipeline {
             steps {
                 // Define steps for main branch
                 echo 'Building main branch...'
+                echo '****This is a main branch****'
                 // Add your build steps here
             }
         }
@@ -18,6 +19,7 @@ pipeline {
             steps {
                 // Define steps for develop branch
                 echo 'Building develop branch...'
+                echo '****This is a develop branch****'
                 // Add your build steps here
             }
         }
