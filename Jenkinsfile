@@ -18,6 +18,7 @@ pipeline {
             steps {
                 // Define steps for develop branch
                 echo 'Building develop branch...'
+                echo 'Test'
                 // Add your build steps here
             }
         }
